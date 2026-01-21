@@ -7,7 +7,7 @@ void main(){
 
   stdout.write("Tebak angka antara 1 sampai 100: ");
   int input = int.parse(stdin.readLineSync()!);
-  int cobaan = 0;
+  int cobaan = 1;
   while(input != angka){
     if(input < angka){
       print("Tebakan terlalu rendah. Coba lagi:");
