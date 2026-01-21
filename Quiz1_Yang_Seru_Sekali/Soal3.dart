@@ -15,11 +15,10 @@ void main(){
     } else if(input > angka){
       print("Tebakan terlalu tinggi. Coba lagi:");
       cobaan += 1;
-    }else if(input == angka){
-      print("Yey! Tebakanmu benar, angkanya adalah $angka.");
-      print("Jumlah tebakan: $cobaan");
     }
     stdout.write("Masukkan tebakan baru: ");
     input = int.parse(stdin.readLineSync()!);
   }
+  print("Yey! Tebakanmu benar, angkanya adalah $angka.");
+  print("Jumlah tebakan: $cobaan");
 }
